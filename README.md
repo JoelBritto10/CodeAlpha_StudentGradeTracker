@@ -1,6 +1,21 @@
-# Student Grade Tracker
+# Student Grade Tracker - Complete Guide
 
-A comprehensive Java application for managing and tracking student grades with statistical analysis.
+A comprehensive Java and Python application for managing and tracking student grades with statistical analysis.
+
+## 🎯 Now Available in Two Versions!
+
+### Version 1: Console Application (Java)
+- Traditional command-line interface
+- Requires Java
+- Run with: `java GradeTrackerApp`
+
+### Version 2: Web Application (Python + Streamlit) ⭐ NEW
+- Modern, interactive web interface
+- Beautiful dashboards and charts
+- Requires Python
+- Run with: `streamlit run app.py`
+
+---
 
 ## Features
 
@@ -14,6 +29,8 @@ A comprehensive Java application for managing and tracking student grades with s
 - ✓ Top and bottom performer identification
 - ✓ Student search functionality
 - ✓ Remove students from the system
+- ✓ Interactive visualizations (Streamlit)
+- ✓ Export to CSV (Streamlit)
 
 ## Project Structure
 
@@ -21,10 +38,38 @@ A comprehensive Java application for managing and tracking student grades with s
 ├── Student.java          - Represents a single student and their grades
 ├── GradeManager.java     - Manages all students and system-wide operations
 ├── GradeTrackerApp.java  - Main console interface and user interaction
-└── README.md             - This file
+├── app.py                - NEW: Streamlit web application
+├── requirements.txt      - NEW: Python dependencies
+├── run.bat               - Batch script to run console app
+├── run.ps1               - PowerShell script to run console app
+├── run_streamlit.bat     - NEW: Batch script to run web app
+└── run_streamlit.ps1     - NEW: PowerShell script to run web app
 ```
 
-## Class Descriptions
+---
+
+## 🚀 QUICK START: Web Version (Streamlit) ⭐ RECOMMENDED
+
+### Requirements: Python 3.8+
+
+### Easiest Way to Run:
+```powershell
+cd "C:\Users\Ruchitha\OneDrive\Student grade tracker"
+run_streamlit.bat
+```
+
+This automatically installs dependencies and launches at http://localhost:8501
+
+**Features:**
+- 📊 Interactive Dashboard
+- 📈 Beautiful Charts & Visualizations  
+- 📋 Export to CSV
+- 👥 Easy Student Management
+- 📉 Grade Analysis
+
+---
+
+## Class Descriptions (Java Console Version)
 
 ### Student.java
 - Stores individual student data (name, ID, grades)
